@@ -137,7 +137,7 @@ class OrderDetailsViewByAdmin(generics.RetrieveAPIView):
         send_mail(
             "Employee:Employee Portal",
             f"Your order is Dispatched......... Expected delivery date is {due_date}",
-            "remyapillai1988@gmail.com",
+            "remyatestwork@gmail.com",
             [email]
         )
         return Response({"Email sent and expected delivery date is ":due_date})
