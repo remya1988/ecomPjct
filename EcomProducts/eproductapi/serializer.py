@@ -79,7 +79,7 @@ class OrderSerializer(serializers.ModelSerializer):
         send_mail(
             "Employee:Employee Portal",
             f"Your order is placed.........",
-            "remyapillai1988@gmail.com",
+            "remyatestwork@gmail.com",
             [email]
         )
         product=self.context.get("product")
